@@ -41,3 +41,19 @@
 
 Преступность
 ![image](https://user-images.githubusercontent.com/59645719/110157115-de4ece00-7df8-11eb-9add-9b932123daea.png)
+
+## telnet
+HEAD
+![image](https://user-images.githubusercontent.com/59645719/110158110-07239300-7dfa-11eb-978e-d236281c135a.png)
+
+GET (криво)
+![image](https://user-images.githubusercontent.com/59645719/110158531-8add7f80-7dfa-11eb-867e-6a8f182700ab.png)
+
+404 (400)
+![image](https://user-images.githubusercontent.com/59645719/110159578-f07e3b80-7dfb-11eb-8af9-4c2f01698f2a.png)
+![image](https://user-images.githubusercontent.com/59645719/110159480-d2b0d680-7dfb-11eb-9c13-c0e51c290106.png)
+
+POST
+![image](https://user-images.githubusercontent.com/59645719/110159898-579bf000-7dfc-11eb-8de1-3a0f387eaf7a.png)
+
+
