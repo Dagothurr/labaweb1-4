@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>МВД Волгограда</title>
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="pages/authpage.css">
+</head>
+<body>
+<div class="page">
+    <form action="check.php" method="post" class="auth" name="Profile" novalidate>
+        <h2 class="auth__title">Регистрация</h2>
+        <input type="text" placeholder="Ваше имя" id="auth__name" class="auth__input auth__input_value_name" name="Name" required minlength="2" maxlength="40">
+        <span class="auth__input-error auth__name-error"></span>
+        <input type="password" placeholder="Ваш пароль" id="auth__info" class="auth__input auth__input_value_info" name="Info" required minlength="2" maxlength="40">
+        <span class="auth__input-error auth__info-error"></span>
+        <button type="submit" class="auth__submit">Зарегистрироваться</button>
+    </form>
+
+</div>
+<script src="scripts/validate.js"></script>
+</body>
+</html>
