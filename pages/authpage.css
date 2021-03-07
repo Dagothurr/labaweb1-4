@@ -1,0 +1,8 @@
+@import url(../blocks/page/page.css);
+@import url(../blocks/auth/auth.css);
+
+@import url(../blocks/auth/__submit/auth__submit.css);
+@import url(../blocks/auth/__submit/_disabled/auth__submit_disabled.css);
+@import url(../blocks/auth/__input/auth__input.css);
+@import url(../blocks/auth/__input/_type/auth__input_type_error.css);
+
