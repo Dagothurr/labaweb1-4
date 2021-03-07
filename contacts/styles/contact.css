@@ -1,0 +1,83 @@
+.page {
+  background-color: white;
+  min-width: 1100px;
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header__title {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header__phrase {
+  font-size: 14px;
+  margin: 0;
+}
+
+.header__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.logo {
+  height: 144px;
+  width: 144px;
+}
+
+.nav {
+  display: flex;
+  background-color: #40689C;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+}
+
+.nav__link {
+  line-height: 1.15;
+  font-size: 30px;
+  color: white;
+  transition: transform .3s ease;
+}
+
+.nav__link:hover {
+  text-decoration: none;
+  color: white;
+  transform: scale(1.1);
+}
+
+.contacts {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.person {
+  flex-direction: column;
+  background-color: #2f2f2f;
+  padding: 20px;
+}
+
+.person__icon {
+  height: 500px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.person__info {
+  font-size: 15px;
+  color: wheat;
+  margin-bottom: 0;
+}
