@@ -1,26 +1,67 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>МВД Волгограда</title>
-    <link rel="stylesheet" href="vendor/normalize.css">
-    <link rel="stylesheet" href="pages/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>МВД Волгограда</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 </head>
 <body>
-<div class="page">
-    <a class="authentific" href="authpage.html">Войти</a>
-    <header class="header">
-        <a class="header__link" href="index.html">Главная</a>
-        <a class="header__link" href="swat.html">Дежурные</a>
-        <a class="header__link" href="crimes.html">Преступления</a>
-    </header>
-    <main class="main">
-        <h1 class="main__info">Ситуация в Волгограде</h1>
-        <img class="main__photo" src="images/volgograd.jpg">
-    </main>
-    <footer class="footer">
-        <p class="footer__copyright">&copy;Метлицкий и Хакимов</p>
-    </footer>
-</div>
+    <div class="page">
+
+      <header class="header">
+        <img class="logo logo__place_header" alt="Логотип Волгограда" src="images/logo.png">
+        <div class="header__info">
+          <h1 class="header__title">МИНИСТЕРСТВО ВНУТРЕННИХ ДЕЛ ВОЛГОГРАДА</h1>
+          <p class="header__phrase">СЛУЖИМ ВОЛГОГРАДУ, СЛУЖИМ ЗАКОНУ!</p>
+        </div>
+      </header>
+
+      <nav class="nav">
+        <a href="contacts/contact.html" class="nav__link">Контакты</a>
+        <a href="crime/crime.html" class="nav__link">Преступность</a>
+      </nav>
+
+      <section class="crimes">
+        <h2 class="section-title">Топ разыскиваемых</h2>
+        <p class="section-subtitle">Самые опасные преступники</p>
+        <ul class="table">
+          <li class="table__cell">
+            <img class="table__picture" src="images/rost.jpg">
+            <p class="table__text">Дзюбенко Ростислав</p>
+          </li>
+          <li class="table__cell">
+            <img class="table__picture" src="images/kate.jpg">
+            <p class="table__text">Станислава Нара</p>
+          </li>
+          <li class="table__cell">
+            <img class="table__picture" src="images/vadim.jpg">
+            <p class="table__text">Вадим Евтухов</p>
+          </li>
+          <li class="table__cell">
+            <img class="table__picture" src="images/jenya.jpg">
+            <p class="table__text">Евгений Орлов</p>
+          </li>
+          <li class="table__cell">
+            <img class="table__picture" src="images/kateV.jpg">
+            <p class="table__text">Екатерина Волкова</p>
+          </li>
+          <li class="table__cell">
+            <img class="table__picture" src="images/vlad.png">
+            <p class="table__text">Владислав Хакимов</p>
+          </li>
+          <li class="table__cell">
+            <img class="table__picture" src="images/cyborg.jpg">
+            <p class="table__text">Роман Метлицкий</p>
+          </li>
+          <li class="table__cell">
+            <img class="table__picture" src="images/natan.jpg">
+            <p class="table__text">Натан Натаныч</p>
+          </li>
+        </ul>
+      </section>
+    </div>
 </body>
 </html>
