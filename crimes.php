@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>МВД Волгограда</title>
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="pages/crimes.css">
+</head>
+
+<body>
+<div class="page">
+    <a class="authentific" href="authpage.php">Войти</a>
+	<a class="registration" href="reg.php">Зарегистрироваться</a>
+    <header class="header">
+        <a class="header__link" href="index.php">Главная</a>
+        <a class="header__link" href="swat.php">Дежурные</a>
+        <a class="header__link" href="crimes.php">Преступления</a>
+    </header>
+
+    <main class="main">
+        <h1 class="main__info">Журнал регистрации преступлений</h1>
+        <table border="1">
+            <tr><th>Номер</th><th>Преступление</th><th>Район</th><th>Дежурный</th><th>Дата</th></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+            <tr><td>1</td><td>Убийство</td><td>Кировский район</td><td>Хакимов</td><td>30.06.2001</td></tr>
+            <tr><td>1234</td><td>Ограбление</td><td>Красноармейский район</td><td>Метлицкий</td><td>30.06.2001</td></tr>
+        </table>
+        <div class="nav">
+            <a class="nav__link">1</a>
+            <a class="nav__link">2</a>
+            <a class="nav__link">3</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copyright">&copy;Метлицкий и Хакимов</p>
+    </footer>
+</div>
+</body>
+</html>
